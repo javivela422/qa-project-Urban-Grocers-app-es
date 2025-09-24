@@ -1,8 +1,13 @@
-# Francisco javier velasco damian sprint 7 grupo Q28
-# Pruebas para el parametro al crear un kit en []
-- Necesitas tener instalados los paquetes pytest y request para ejecutar las pruebas.
-- Abre la terminal o consola.
-Ingresa el comando pip install pytest.
-- Ejecuta todas las pruebas con el comando pytest.
-Tienes dos opciones para ejecutar tus pruebas: 
-directamente desde la consola de PyCharm o utilizando su interfaz gráfica
+ Pruebas para el parámetro al crear un kit
+Para ejecutar las pruebas relacionadas con el parámetro al crear un kit (), sigue estos pasos:
+1. 	Instala los paquetes necesarios
+Abre la terminal y ejecuta:
+pip install pytest requests
+2. 	Ejecuta las pruebas
+Puedes hacerlo de dos formas:
+• 	Desde la terminal:
+pytest
+• 	Desde PyCharm:
+• 	Usa la consola integrada.
+• 	O haz clic derecho sobre el archivo de prueba y selecciona "Run" para usar la interfaz gráfica.
+Estas pruebas validan el comportamiento del parámetro al momento de crear un kit, asegurando que se maneje correctamente cuando se recibe una lista vacía () u otros valores esperados.
